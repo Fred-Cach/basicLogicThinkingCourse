@@ -7,7 +7,9 @@ int max_of_four(int num1, int num2, int num3, int num4)
     for (int i = 0; i < 4; i++)
     {
         if (max < array[i])
+            // {
             max = array[i];
+        // }
     }
     return max;
 }
